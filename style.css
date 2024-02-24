@@ -8,6 +8,62 @@
 html,body{
     width: 100%;
     height: 100%;
-    background-color: burlywood;
+    color: #fff;
+    background-color: #22223b;
 }
-
+.box{
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+    /* background-color: #fff; */
+}
+.input-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px 26px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.input-box input{
+    width: 100%;
+    padding: 13px 20px;
+    margin-right: 10px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.input-box img{
+    width: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.box button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #078241;
+    border: none;
+    outline: none;
+    padding: 10px 26px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+}
+.box button img{
+    width: 25px;
+    margin-right: 10px;
+}
+.box h1{
+    font-weight: 500;
+}
+.box h1 span{
+    color: #078241;
+    border-bottom: 3px solid #078241;
+}
